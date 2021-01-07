@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<!-- saved from url=(0089)file:///C:/Users/Utilisateur/Downloads/2018%20apr%C3%A8s%20r%C3%A9installation/index.html -->
+<html lang="fr">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enavantlehac</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous" />
+    <link rel="stylesheet" href="assets/Styles/style.css">
+
+</head>
+
+<body>
+    <img src="assets/images/capture_01_mini.png" alt"Exo grand Modèle "/>
+exrcice à faire :<br/>
+* Utiliser majoritairement *des classes bootstrap* : **Votre site doit être responsive**.<br/>
+* Nous allons prendre comme référence l'iPhone avec une largeur de **414px** (*ex. iPhone 8* Plus)<br/>
+* Le tableau doit être **optimisé** en mode mobile : *voir ci-dessous*
+<!-- ![Tableau](img/capture_02.PNG " Tableau") -->
+    <br />
+    * Le tableau doit bénéficier d'un effet lors du survol de la souris (*surbrillance*) : **Nous devons pouvoir
+    reconnaitre la ligne du tableau lorsque que nous passons la souris dessus.**<br />
+    * Les images seront à enregistrer dans le dossier du TP **img**.<br />
+    * Utilisation de l'anglais lors de la création de vos **class** et de vos **id**.<br />
+    * Un code **propre** avec une belle **indentation** pour plus de lisibilité.<br />
+    <img src="assets/images/capture_02.png" height=250px; alt"Exo petit Modèle "/>
+
+
+
+    <div class=" container-fluid vh-100">
+    <div class="container p-5 text-center">
+        <div class="row">
+            <h5 class="col-12">JOURNEE 8</h5>
+        </div>
+    </div>
+
+    <!-------------------     PARTIE TABLEAU   -------------->
+
+    <div class="container-fluid px-5 text-center table-responsive bg-light">
+        <table class="table table-hover ">
+            <thead>
+                <tr>
+                    <th scope="col">POSITION</th>
+                    <th scope="col">logo</th>
+                    <th scope="col" class="d-none d-md-table-cell">CLUB</th>
+                    <th scope="col" class="d-md-none">CLUB xs</th>
+                    <th scope="col">POINTS</th>
+                    <th scope="col">JOUéS</th>
+                    <th scope="col">GAGNéS</th>
+                    <th scope="col">NULS</th>
+                    <th scope="col">PERDUS</th>
+                    <th scope="col">BUT POUR</th>
+                    <th scope="col">BUT CONTRE</th>
+                    <th scope="col">DIFF.</th>
+                    <th scope="col">FORME</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="table-active">
+                    <th class="col" scope="row">1
+                         <img src="assets/images/black-circle.png" class="posit" alt="position stable"> </th>
+                        <td><img class="mini" src="assets/images/90.png" alt="logo paris"></td>
+                    <td class="d-none d-md-block text-start">PARIS FC</td>
+                    <td class="d-md-none text-start">PARIS FC</td>
+                    <td class="col-sm-1">16</td>
+                    <td class="col-sm-1">7</td>
+                    <td class="col-sm-1">5</td>
+                    <td class="col-sm-1">1</td>
+                    <td class="col-sm-1">1</td>
+                    <td class="col-sm-1">12</td>
+                    <td class="col-sm-1">5</td>
+                    <td class="col-sm-1">+7</td>
+                    <td class="col-sm-1"></td>
+                </tr>
+                <tr>
+                    <th class="col-sm-1" scope="row">2</th>
+                    <td><img class="mini" src="assets/images/28.png" alt="logo CHAMOIS NIORTAIS FC"></td>
+                    <td class="d-none d-md-block">CHAMOIS NIORTAIS FC</td>
+                    <td class="d-md-none">NIORT</td>
+                    <td>14</td>
+                    <td>7</td>
+                    <td>4</td>
+                    <td>2</td>
+                    <td>1</td>
+                    <td>9</td>
+                    <td>4</td>
+                    <td>+4</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <th class="col-sm-1" scope="row">3 <img src="assets/images/black-circle.png" class="posit" alt="position stable"> </th>
+                    </th>
+                    <td><img class="mini" src="assets/images/160.png" alt="logo FC SHOCHAUX-MONTBELIARD"></td>
+                    <td class="d-none d-md-block">FC SHOCHAUX-MONTBELIARD</td>
+                    <td class="d-md-none">FCSM</td>
+                    <td>13</td>
+                    <td>7</td>
+                    <td>3</td>
+                    <td>4</td>
+                    <td>0</td>
+                    <td>10</td>
+                    <td>6</td>
+                    <td>+4</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <th class="col-sm-1" scope="row">4</th>
+                    <td><img class="mini" src="assets/images/33.png" alt="logo ESTAC TROYES"></td>
+                    <td class="d-none d-md-block">ESTAC TROYES</td>
+                    <td class="d-md-none">TROYES</td>
+                    <td>13</td>
+                    <td>7</td>
+                    <td>4</td>
+                    <td>1</td>
+                    <td>2</td>
+                    <td>8</td>
+                    <td>4</td>
+                    <td>+4</td>
+                    <td>0 0 0</td>
+                </tr>
+                <tr>
+                    <th class="col-sm-1" scope="row">5</th>
+                    <td><img class="mini" src="assets/images/40.png" alt="logo CLERMONT FOOT 63"></td>
+                    <td class="d-none d-md-block">CLERMONT FOOT 63</td>
+                    <td class="d-md-none">CLERMONT</td>
+
+                    <td>12</td>
+                    <td>7</td>
+                    <td>3</td>
+                    <td>3</td>
+                    <td>1</td>
+                    <td>9</td>
+                    <td>3</td>
+                    <td>+6</td>
+                    <td>0 0 0</td>
+                </tr>
+                <tr>
+                    <th class="col-sm-1" scope="row">6</th>
+                    <td><img class="mini" src="assets/images/38.png" alt="logo GRENOBLE FOOT 38"></td>
+                    <td class="d-none d-md-block">GRENOBLE FOOT 38</td>
+                    <td class="d-md-none">GRENOBLE</td>
+                    <td>12</td>
+                    <td>7</td>
+                    <td>4</td>
+                    <td>0</td>
+                    <td>3</td>
+                    <td>11</td>
+                    <td>7</td>
+                    <td>+4</td>
+                    <td>0 0 0</td>
+                </tr>
+                <tr>
+                    <th class="col-sm-1" scope="row">7</th>
+                    <td><img class="mini" src="assets/images/20.png" alt="logo STADE MALHERBE CAEN"></td>
+                    <td class="d-none d-md-block">STADE MALHERBE CAEN</td>
+                    <td class="d-md-none">CAEN</td>
+                    <td>11</td>
+                    <td>7</td>
+                    <td>3</td>
+                    <td>2</td>
+                    <td>2</td>
+                    <td>5</td>
+                    <td>4</td>
+                    <td>+1</td>
+                    <td>0 0 0</td>
+                </tr>
+                <tr>
+                    <th class="col-sm-1" scope="row">8</th>
+                    <td><img class="mini" src="assets/images/68.png" alt="logo VALENCIENNES FC"></td>
+                    <td class="d-none d-md-block">VALENCIENNES FC</td>
+                    <td class="d-md-none">VALENCIENNES</td>
+                    <td>10</td>
+                    <td>7</td>
+                    <td>3</td>
+                    <td>1</td>
+                    <td>3</td>
+                    <td>5</td>
+                    <td>4</td>
+                    <td>+1</td>
+                    <td>0 0 0</td>
+                </tr>
+                <tr>
+                    <th class="col-sm-1" scope="row">9</th>
+                    <td><img class="mini" src="assets/images/24.png" alt="logo EN AVANT GUINGAMP"></td>
+                    <td class="d-none d-md-block">EN AVANT GUINGAMP</td>
+                    <td class="d-md-none">GUINGAMP</td>
+                    <td>10</td>
+                    <td>7</td>
+                    <td>3</td>
+                    <td>1</td>
+                    <td>3</td>
+                    <td>7</td>
+                    <td>7</td>
+                    <td>0</td>
+                    <td>0 0 0</td>
+                </tr>
+                <tr>
+                    <th class="col-sm-1" scope="row">10</th>
+                    <td><img class="mini" src="assets/images/48.png" alt="logo USL DUNKERQUE"></td>
+                    <td class="d-none d-md-block">USL DUNKERQUE</td>
+                    <td class="d-md-none">DUNKERQUE</td>
+                    <td>10</td>
+                    <td>7</td>
+                    <td>3</td>
+                    <td>1</td>
+                    <td>3</td>
+                    <td>6</td>
+                    <td>6</td>
+                    <td>0</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <th class="col-sm-1" scope="row">11 <img src="assets/images/black-circle.png" class="posit" alt="position stable"> </th></th>
+                    <td><img class="mini" src="assets/images/5.png" alt="logo Le HAVRE AC"></td>
+                    <td class="d-none d-md-block">Le HAVRE AC</td>
+                    <td class="d-md-none">Le HAVRE</td>
+                    <td>10</td>
+                    <td>7</td>
+                    <td>3</td>
+                    <td>1</td>
+                    <td>3</td>
+                    <td>6</td>
+                    <td>8</td>
+                    <td>-2</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <th class="col-sm-1" scope="row">12</th>
+                    <td><img class="mini" src="assets/images/16.png" alt="logo TOULOUSE FC"></td>
+                    <td class="d-none d-md-block">TOULOUSE FC</td>
+                    <td class="d-md-none">TOULOUSE</td>
+                    <td>9</td>
+                    <td>7</td>
+                    <td>2</td>
+                    <td>3</td>
+                    <td>2</td>
+                    <td>8</td>
+                    <td>8</td>
+                    <td>0</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <th class="col-sm-1" scope="row">13</th>
+                    <td><img class="mini" src="assets/images/2.png" alt="logo AJ AUXERRE"></td>
+                    <td class="d-none d-md-block">AJ AUXERRE</td>
+                    <td class="d-md-none">AUXERRE</td>
+                    <td>9</td>
+                    <td>7</td>
+                    <td>3</td>
+                    <td>0</td>
+                    <td>4</td>
+                    <td>10</td>
+                    <td>11</td>
+                    <td>-1</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <th class="col-sm-1" scope="row">14</th>
+                    <td><img class="mini" src="assets/images/11.png" alt="logo AS NANCY LORRAINE"></td>
+                    <td class="d-none d-md-block">AS NANCY LORRAINE</td>
+                    <td class="d-md-none">NANCY</td>
+                    <td>8</td>
+                    <td>7</td>
+                    <td>2</td>
+                    <td>2</td>
+                    <td>3</td>
+                    <td>7</td>
+                    <td>7</td>
+                    <td>0</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <th class="col-sm-1" scope="row">15</th>
+                    <td><img class="mini" src="assets/images/22.png" alt="logo CHÂTEAUROUX"></td>
+                    <td class="d-none d-md-block">CHÂTEAUROUX</td>
+                    <td class="d-md-none">CHÂTEAUROUX</td>
+                    <td>8</td>
+                    <td>7</td>
+                    <td>2</td>
+                    <td>2</td>
+                    <td>3</td>
+                    <td>6</td>
+                    <td>6</td>
+                    <td>0</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <th class="col-sm-1" scope="row">16</th>
+                    <td><img class="mini" src="assets/images/18.png" alt="logo AMIENS SC"></td>
+                    <td class="d-none d-md-block">AMIENS SC</td>
+                    <td class="d-md-none">AMIENS</td>
+                    <td>8</td>
+                    <td>7</td>
+                    <td>2</td>
+                    <td>2</td>
+                    <td>3</td>
+                    <td>3</td>
+                    <td>4</td>
+                    <td>-1</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <th class="col-sm-1" scope="row">17</th>
+                    <td><img class="mini" src="assets/images/64.png" alt="logo AVEYRON FOOTBALL"></td>
+                    <td class="d-none d-md-block">RODEZ AVEYRON FOOTBALL</td>
+                    <td class="d-md-none">RODEZ</td>
+                    <td>8</td>
+                    <td>7</td>
+                    <td>2</td>
+                    <td>2</td>
+                    <td>3</td>
+                    <td>6</td>
+                    <td>11</td>
+                    <td>-5</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <th class="col-sm-1" scope="row">18 <img src="assets/images/black-circle.png" class="posit" alt="position stable"> </th></th>
+                    <td><img class="mini" src="assets/images/9443.png" alt="logo FC CHAMBLY OISE"></td>
+                    <td class="d-none d-md-block">FC CHAMBLY OISE</td>
+                    <td class="d-md-none">CHAMBLY</td>
+                    <td>5</td>
+                    <td>7</td>
+                    <td>1</td>
+                    <td>2</td>
+                    <td>4</td>
+                    <td>6</td>
+                    <td>13</td>
+                    <td>-7</td>
+                    <td>0 0 0</td>
+                </tr>
+                <tr>
+                    <th class="col-sm-1" scope="row">19 <img src="assets/images/black-circle.png" class="posit" alt="position stable"> </th></th>
+                    <td><img class="mini" src="assets/images/17.png" alt="logo AC AJACCIO"></td>
+                    <td class="d-none d-md-block">AC AJACCIO</td>
+                    <td class="d-md-none">AJACCIO</td>
+                    <td>4</td>
+                    <td>7</td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>5</td>
+                    <td>3</td>
+                    <td>11</td>
+                    <td>-8</td>
+                    <td>0 0 0</td>
+                </tr>
+                <tr>
+                    <th class="col-sm-1" scope="row">20<img src="assets/images/black-circle.png" class="posit" alt="position stable"> </th></th>
+                    <td><img class="mini" src="assets/images/73.png" alt="logo PAU FOOTBALL CLUB"></td>
+                    <td class="d-none d-md-block">PAU FOOTBALL CLUB</td>
+                    <td class="d-md-none">PAU</td>
+                    <td>3</td>
+                    <td>7</td>
+                    <td>0</td>
+                    <td>3</td>
+                    <td>4</td>
+                    <td>2</td>
+                    <td>9</td>
+                    <td>-7</td>
+                    <td>0 0 0</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+
+
+    <!----------------------------------->
+    </div>
+
+
+
+    <!-- BOOTSTRAP JS -->
+
+    <script src="./Enavantlehac_files/popper.min.js.téléchargement"
+        integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous">
+    </script>
+    <script src="./Enavantlehac_files/bootstrap.min.js.téléchargement"
+        integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous">
+    </script>
+
+
+</body>
+
+</html>
+
+<!--  display sur :https://getbootstrap.com/docs/5.0/utilities/display/-->
+<!-- <div class="d-lg-none">hide on lg and wider screens</div>
+<div class="d-none d-lg-block">hide on screens smaller than lg</div> -->
+<!-- icones sur : https://icones8.fr/icons/set/triangles-->
