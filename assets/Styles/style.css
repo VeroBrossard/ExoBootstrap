@@ -1,9 +1,18 @@
-.mini{
+.mini {
   height: 2em;
+  margin: 0px;
 }
-.posit{
+
+.posit {
   width: 18px;
 }
+
+.color_antepenultimate{
+background-color:lightgray;
+}
+ body{
+   font-size: 0.8em;
+ }
 /* style de bton checkbox*/
 /* input[type=checkbox]{
   width: 5%;
