@@ -14,21 +14,21 @@
 </head>
 
 <body>
-    <img src="assets/images/capture_01_mini.png" alt"Exo grand Modèle "/>
+    <!-- <img src="assets/images/capture_01_mini.png" alt"Exo grand Modèle "/>
 exrcice à faire :<br/>
 * Utiliser majoritairement *des classes bootstrap* : **Votre site doit être responsive**.<br/>
 * Nous allons prendre comme référence l'iPhone avec une largeur de **414px** (*ex. iPhone 8* Plus)<br/>
-* Le tableau doit être **optimisé** en mode mobile : *voir ci-dessous*
+* Le tableau doit être **optimisé** en mode mobile : *voir ci-dessous* -->
 <!-- ![Tableau](img/capture_02.PNG " Tableau") -->
-    <br />
+    <!-- <br />
     * Le tableau doit bénéficier d'un effet lors du survol de la souris (*surbrillance*) : **Nous devons pouvoir
     reconnaitre la ligne du tableau lorsque que nous passons la souris dessus.**<br />
     * Les images seront à enregistrer dans le dossier du TP **img**.<br />
     * Utilisation de l'anglais lors de la création de vos **class** et de vos **id**.<br />
     * Un code **propre** avec une belle **indentation** pour plus de lisibilité.<br />
-    <img src="assets/images/capture_02.png" height=250px; alt"Exo petit Modèle "/>
+    <img src="assets/images/capture_02.png" height=250px; alt"Exo petit Modèle "/> -->
 
-    <p><br/> <hr/>  <br/></p>
+    <p><br/> <hr/> <br/></p>
 
 
 
@@ -39,10 +39,10 @@ exrcice à faire :<br/>
         </div>
     </div>
 
-    <!-------------------     PARTIE TABLEAU   -------------->
+    <!--       ----------     PARTIE TABLEAU   ---------   -->
 
     <div class="container-fluid px-5 text-center table-responsive bg-light">
-        <table class="table table-hover">
+        <table class="table table-hover align-middle">
             <thead>
                 <tr>
                     <th>POSITION</th>
@@ -50,20 +50,21 @@ exrcice à faire :<br/>
                         <div class="d-none">logo</div>
                     </th>
                     <th class="d-none d-md-table-cell">CLUB</th>
-                    <th class="d-md-none">CLUB xs</th>
-                    <th> <span class="d-none d-md-table-cell">POINTS</span>
+                    <th class="d-md-none">CLUB</th>
+                    <th> 
+                        <span class="d-none d-md-inline">POINTS</span>
                         <span class="d-md-none">Pts</span> </th>
                     <th>
-                        <div class="d-none d-md-table-cell">JOU&#201;S</div>
+                        <div class="d-none d-md-table-cell text-uppercase">JOUéS</div>
                         <div class="d-md-none">Pts</div>
                     </th>
-                    <th>GAGN&#201;S</th>
-                    <th>NULS</th>
-                    <th>PERDUS</th>
-                    <th>BUT POUR</th>
-                    <th>BUT CONTRE</th>
+                    <th class="d-none d-md-table-cell">GAGN&#201;S</th>
+                    <th class="d-none d-md-table-cell">NULS</th>
+                    <th class="d-none d-md-table-cell">PERDUS</th>
+                    <th class="d-none d-md-table-cell">BUT POUR</th>
+                    <th class="d-none d-md-table-cell">BUT CONTRE</th>
                     <th>DIFF.</th>
-                    <th>FORME</th>
+                    <th class="d-none d-md-table-cell">FORME</th>
                 </tr>
             </thead>
             <tbody>
@@ -76,30 +77,33 @@ exrcice à faire :<br/>
                     <td class="d-md-none text-start">PARIS FC</td>
                     <td>16</td>
                     <td>7</td>
-                    <td>5</td>
-                    <td>1</td>
-                    <td>1</td>
-                    <td>12</td>
-                    <td>5</td>
+                    <td class="d-none d-md-table-cell">5</td>
+                    <td class="d-none d-md-table-cell">1</td>
+                    <td class="d-none d-md-table-cell">1</td>
+                    <td class="d-none d-md-table-cell">12</td>
+                    <td class="d-none d-md-table-cell">5</td>
                     <td>+7</td>
-                    <td> </td>
+                    <td class="d-none d-md-table-cell"> </td>
                 </tr>
                 <tr>
                     <th class="col-sm-1" scope="row">2 <img src="assets/images/green-triangle-pointed-up.png"
-                            class="posit" alt="position montante" </th> <td><img class="mini" src="assets/images/28.png"
+                            class="posit" alt="position montante" />
+                        </th> 
+                        
+                    <td><img class="mini" src="assets/images/28.png"
                             alt="logo CHAMOIS NIORTAIS FC"></td>
                     <td class="d-none d-md-table-cell text-start">CHAMOIS NIORTAIS FC</td>
                     <td class="d-md-none text-start">NIORT</td>
                     <td>14</td>
                     <td>7</td>
-                    <td>4</td>
-                    <td>2</td>
-                    <td>1</td>
-                    <td>9</td>
-                    <td>4</td>
+                    <td class="d-none d-md-table-cell">4</td>
+                    <td class="d-none d-md-table-cell">2</td>
+                    <td class="d-none d-md-table-cell">1</td>
+                    <td class="d-none d-md-table-cell">9</td>
+                    <td class="d-none d-md-table-cell">4</td>
                     <td>+4</td>
-                    <td></td>
-                </tr>
+                    <td class="d-none d-md-table-cell"></td>
+                </tr> 
                 <tr>
                     <th class="col-sm-1" scope="row">3 <img src="assets/images/black-circle.png" class="posit"
                             alt="position stable"> </th>
@@ -109,13 +113,13 @@ exrcice à faire :<br/>
                     <td class="d-md-none text-start">FCSM</td>
                     <td>13</td>
                     <td>7</td>
-                    <td>3</td>
-                    <td>4</td>
-                    <td>0</td>
-                    <td>10</td>
-                    <td>6</td>
+                    <td class="d-none d-md-table-cell">3</td>
+                    <td class="d-none d-md-table-cell">4</td> 
+                    <td class="d-none d-md-table-cell">0</td>
+                    <td class="d-none d-md-table-cell">10</td>
+                    <td class="d-none d-md-table-cell">6</td>
                     <td>+4</td>
-                    <td></td>
+                    <td class="d-none d-md-table-cell"></td> 
                 </tr>
                 <tr>
                     <th class="col-sm-1" scope="row">4 <img src="assets/images/green-triangle-pointed-up.png"
@@ -125,13 +129,13 @@ exrcice à faire :<br/>
                     <td class="d-md-none text-start">TROYES</td>
                     <td>13</td>
                     <td>7</td>
-                    <td>4</td>
-                    <td>1</td>
-                    <td>2</td>
-                    <td>8</td>
-                    <td>4</td>
+                    <td class="d-none d-md-table-cell">4</td>
+                    <td class="d-none d-md-table-cell">1</td>
+                    <td class="d-none d-md-table-cell">2</td>
+                    <td class="d-none d-md-table-cell">8</td>
+                    <td class="d-none d-md-table-cell">4</td>
                     <td>+4</td>
-                    <td>0 0 0</td>
+                    <td class="d-none d-md-table-cell">0 0 0</td>
                 </tr>
                 <tr>
                     <th class="col-sm-1" scope="row">5 <img src="assets/images/green-triangle-pointed-up.png"
@@ -139,16 +143,15 @@ exrcice à faire :<br/>
                             alt="logo CLERMONT FOOT 63"></td>
                     <td class="d-none d-md-table-cell text-start">CLERMONT FOOT 63</td>
                     <td class="d-md-none text-start">CLERMONT</td>
-
-                    <td>12</td>
+                     <td>12</td>
                     <td>7</td>
-                    <td>3</td>
-                    <td>3</td>
-                    <td>1</td>
-                    <td>9</td>
-                    <td>3</td>
+                    <td class="d-none d-md-table-cell">3</td>
+                    <td class="d-none d-md-table-cell">3</td>
+                    <td class="d-none d-md-table-cell">1</td>
+                    <td class="d-none d-md-table-cell">9</td>
+                    <td class="d-none d-md-table-cell">3</td>
                     <td>+6</td>
-                    <td>0 0 0</td>
+                    <td class="d-none d-md-table-cell">0 0 0</td>
                 </tr>
                 <tr>
                     <th class="col-sm-1" scope="row">6 <img src="assets/images/red-triangle-pointed-down.png"
@@ -158,13 +161,13 @@ exrcice à faire :<br/>
                     <td class="d-md-none text-start">GRENOBLE</td>
                     <td>12</td>
                     <td>7</td>
-                    <td>4</td>
-                    <td>0</td>
-                    <td>3</td>
-                    <td>11</td>
-                    <td>7</td>
+                    <td class="d-none d-md-table-cell">4</td>
+                    <td class="d-none d-md-table-cell">0</td>
+                    <td class="d-none d-md-table-cell">3</td>
+                    <td class="d-none d-md-table-cell">11</td>
+                    <td class="d-none d-md-table-cell">7</td>
                     <td>+4</td>
-                    <td>0 0 0</td>
+                    <td class="d-none d-md-table-cell">0 0 0</td>
                 </tr>
                 <tr>
                     <th class="col-sm-1" scope="row">7 <img src="assets/images/red-triangle-pointed-down.png"
@@ -174,13 +177,13 @@ exrcice à faire :<br/>
                     <td class="d-md-none text-start">CAEN</td>
                     <td>11</td>
                     <td>7</td>
-                    <td>3</td>
-                    <td>2</td>
-                    <td>2</td>
-                    <td>5</td>
-                    <td>4</td>
+                    <td class="d-none d-md-table-cell">3</td>
+                    <td class="d-none d-md-table-cell">2</td>
+                    <td class="d-none d-md-table-cell">2</td>
+                    <td class="d-none d-md-table-cell">5</td>
+                    <td class="d-none d-md-table-cell">4</td>
                     <td>+1</td>
-                    <td>0 0 0</td>
+                    <td class="d-none d-md-table-cell">0 0 0</td>
                 </tr>
                 <tr>
                     <th class="col-sm-1" scope="row">8 <img src="assets/images/green-triangle-pointed-up.png"
@@ -190,13 +193,13 @@ exrcice à faire :<br/>
                     <td class="d-md-none text-start">VALENCIENNES</td>
                     <td>10</td>
                     <td>7</td>
-                    <td>3</td>
-                    <td>1</td>
-                    <td>3</td>
-                    <td>5</td>
-                    <td>4</td>
+                    <td class="d-none d-md-table-cell">3</td>
+                    <td class="d-none d-md-table-cell">1</td>
+                    <td class="d-none d-md-table-cell">3</td>
+                    <td class="d-none d-md-table-cell">5</td>
+                    <td class="d-none d-md-table-cell">4</td>
                     <td>+1</td>
-                    <td>0 0 0</td>
+                    <td class="d-none d-md-table-cell">0 0 0</td>
                 </tr>
                 <tr>
                     <th class="col-sm-1" scope="row">9 <img src="assets/images/green-triangle-pointed-up.png"
@@ -206,13 +209,13 @@ exrcice à faire :<br/>
                     <td class="d-md-none text-start">GUINGAMP</td>
                     <td>10</td>
                     <td>7</td>
-                    <td>3</td>
-                    <td>1</td>
-                    <td>3</td>
-                    <td>7</td>
-                    <td>7</td>
+                    <td class="d-none d-md-table-cell">3</td>
+                    <td class="d-none d-md-table-cell">1</td>
+                    <td class="d-none d-md-table-cell">3</td>
+                    <td class="d-none d-md-table-cell">7</td>
+                    <td class="d-none d-md-table-cell">7</td>
                     <td>0</td>
-                    <td>0 0 0</td>
+                    <td class="d-none d-md-table-cell">0 0 0</td>
                 </tr>
                 <tr>
                     <th class="col-sm-1" scope="row">10 <img src="assets/images/red-triangle-pointed-down.png"
@@ -222,13 +225,13 @@ exrcice à faire :<br/>
                     <td class="d-md-none text-start">DUNKERQUE</td>
                     <td>10</td>
                     <td>7</td>
-                    <td>3</td>
-                    <td>1</td>
-                    <td>3</td>
-                    <td>6</td>
-                    <td>6</td>
+                    <td class="d-none d-md-table-cell">3</td>
+                    <td class="d-none d-md-table-cell">1</td>
+                    <td class="d-none d-md-table-cell">3</td>
+                    <td class="d-none d-md-table-cell">6</td>
+                    <td class="d-none d-md-table-cell">6</td>
                     <td>0</td>
-                    <td></td>
+                    <td class="d-none d-md-table-cell"></td>
                 </tr>
                 <tr>
                     <th class="col-sm-1" scope="row">11 <img src="assets/images/black-circle.png" class="posit"
@@ -239,13 +242,13 @@ exrcice à faire :<br/>
                     <td class="d-md-none text-start">Le HAVRE</td>
                     <td>10</td>
                     <td>7</td>
-                    <td>3</td>
-                    <td>1</td>
-                    <td>3</td>
-                    <td>6</td>
-                    <td>8</td>
+                    <td class="d-none d-md-table-cell">3</td>
+                    <td class="d-none d-md-table-cell">1</td>
+                    <td class="d-none d-md-table-cell">3</td>
+                    <td class="d-none d-md-table-cell">6</td>
+                    <td class="d-none d-md-table-cell">8</td>
                     <td>-2</td>
-                    <td></td>
+                    <td class="d-none d-md-table-cell"></td>
                 </tr>
                 <tr>
                     <th class="col-sm-1" scope="row">12 <img src="assets/images/green-triangle-pointed-up.png"
@@ -255,13 +258,13 @@ exrcice à faire :<br/>
                     <td class="d-md-none text-start">TOULOUSE</td>
                     <td>9</td>
                     <td>7</td>
-                    <td>2</td>
-                    <td>3</td>
-                    <td>2</td>
-                    <td>8</td>
-                    <td>8</td>
+                    <td class="d-none d-md-table-cell">2</td>
+                    <td class="d-none d-md-table-cell">3</td>
+                    <td class="d-none d-md-table-cell">2</td>
+                    <td class="d-none d-md-table-cell">8</td>
+                    <td class="d-none d-md-table-cell">8</td>
                     <td>0</td>
-                    <td></td>
+                    <td class="d-none d-md-table-cell"></td>
                 </tr>
                 <tr>
                     <th class="col-sm-1" scope="row">13 <img src="assets/images/red-triangle-pointed-down.png"
@@ -271,13 +274,13 @@ exrcice à faire :<br/>
                     <td class="d-md-none text-start">AUXERRE</td>
                     <td>9</td>
                     <td>7</td>
-                    <td>3</td>
-                    <td>0</td>
-                    <td>4</td>
-                    <td>10</td>
-                    <td>11</td>
+                    <td class="d-none d-md-table-cell">3</td>
+                    <td class="d-none d-md-table-cell">0</td>
+                    <td class="d-none d-md-table-cell">4</td>
+                    <td class="d-none d-md-table-cell">10</td>
+                    <td class="d-none d-md-table-cell">11</td>
                     <td>-1</td>
-                    <td></td>
+                    <td class="d-none d-md-table-cell"></td>
                 </tr>
                 <tr>
                     <th class="col-sm-1" scope="row">14 <img src="assets/images/green-triangle-pointed-up.png"
@@ -287,13 +290,13 @@ exrcice à faire :<br/>
                     <td class="d-md-none text-start">NANCY</td>
                     <td>8</td>
                     <td>7</td>
-                    <td>2</td>
-                    <td>2</td>
-                    <td>3</td>
-                    <td>7</td>
-                    <td>7</td>
+                    <td class="d-none d-md-table-cell">2</td>
+                    <td class="d-none d-md-table-cell">2</td>
+                    <td class="d-none d-md-table-cell">3</td>
+                    <td class="d-none d-md-table-cell">7</td>
+                    <td class="d-none d-md-table-cell">7</td>
                     <td>0</td>
-                    <td></td>
+                    <td class="d-none d-md-table-cell"></td>
                 </tr>
                 <tr>
                     <th class="col-sm-1" scope="row">15 <img src="assets/images/red-triangle-pointed-down.png"
@@ -303,13 +306,13 @@ exrcice à faire :<br/>
                     <td class="d-md-none text-start">CHÂTEAUROUX</td>
                     <td>8</td>
                     <td>7</td>
-                    <td>2</td>
-                    <td>2</td>
-                    <td>3</td>
-                    <td>6</td>
-                    <td>6</td>
+                    <td class="d-none d-md-table-cell">2</td>
+                    <td class="d-none d-md-table-cell">2</td>
+                    <td class="d-none d-md-table-cell">3</td>
+                    <td class="d-none d-md-table-cell">6</td>
+                    <td class="d-none d-md-table-cell">6</td>
                     <td>0</td>
-                    <td></td>
+                    <td class="d-none d-md-table-cell"></td>
                 </tr>
                 <tr>
                     <th class="col-sm-1" scope="row">16 <img src="assets/images/green-triangle-pointed-up.png"
@@ -319,13 +322,13 @@ exrcice à faire :<br/>
                     <td class="d-md-none text-start">AMIENS</td>
                     <td>8</td>
                     <td>7</td>
-                    <td>2</td>
-                    <td>2</td>
-                    <td>3</td>
-                    <td>3</td>
-                    <td>4</td>
+                    <td class="d-none d-md-table-cell">2</td>
+                    <td class="d-none d-md-table-cell">2</td>
+                    <td class="d-none d-md-table-cell">3</td>
+                    <td class="d-none d-md-table-cell">3</td>
+                    <td class="d-none d-md-table-cell">4</td>
                     <td>-1</td>
-                    <td></td>
+                    <td class="d-none d-md-table-cell"></td>
                 </tr>
                 <tr>
                     <th class="col-sm-1" scope="row">17 <img src="assets/images/red-triangle-pointed-down.png"
@@ -335,13 +338,13 @@ exrcice à faire :<br/>
                     <td class="d-md-none text-start">RODEZ</td>
                     <td>8</td>
                     <td>7</td>
-                    <td>2</td>
-                    <td>2</td>
-                    <td>3</td>
-                    <td>6</td>
-                    <td>11</td>
+                    <td class="d-none d-md-table-cell">2</td>
+                    <td class="d-none d-md-table-cell">2</td>
+                    <td class="d-none d-md-table-cell">3</td>
+                    <td class="d-none d-md-table-cell">6</td>
+                    <td class="d-none d-md-table-cell">11</td>
                     <td>-5</td>
-                    <td></td>
+                    <td class="d-none d-md-table-cell"></td>
                 </tr>
                 <tr class="color_antepenultimate">
                     <th class="col-sm-1" scope="row">18 <img src="assets/images/black-circle.png" class="posit"
@@ -352,13 +355,13 @@ exrcice à faire :<br/>
                     <td class="d-md-none text-start">CHAMBLY</td>
                     <td>5</td>
                     <td>7</td>
-                    <td>1</td>
-                    <td>2</td>
-                    <td>4</td>
-                    <td>6</td>
-                    <td>13</td>
+                    <td class="d-none d-md-table-cell">1</td>
+                    <td class="d-none d-md-table-cell">2</td>
+                    <td class="d-none d-md-table-cell">4</td>
+                    <td class="d-none d-md-table-cell">6</td>
+                    <td class="d-none d-md-table-cell">13</td>
                     <td>-7</td>
-                    <td>0 0 0</td>
+                    <td class="d-none d-md-table-cell">0 0 0</td>
                 </tr>
                 <tr class="bg-secondary">
                     <th class="col-sm-1" scope="row">19 <img src="assets/images/black-circle.png" class="posit"
@@ -369,13 +372,13 @@ exrcice à faire :<br/>
                     <td class="d-md-none text-start">AJACCIO</td>
                     <td>4</td>
                     <td>7</td>
-                    <td>1</td>
-                    <td>1</td>
-                    <td>5</td>
-                    <td>3</td>
-                    <td>11</td>
+                    <td class="d-none d-md-table-cell">1</td>
+                    <td class="d-none d-md-table-cell">1</td>
+                    <td class="d-none d-md-table-cell">5</td>
+                    <td class="d-none d-md-table-cell">3</td>
+                    <td class="d-none d-md-table-cell">11</td>
                     <td>-8</td>
-                    <td>0 0 0</td>
+                    <td class="d-none d-md-table-cell">0 0 0</td>
                 </tr>
                 <tr class="bg-secondary">
                     <th class="col-sm-1" scope="row">20 <img src="assets/images/black-circle.png" class="posit"
@@ -386,13 +389,13 @@ exrcice à faire :<br/>
                     <td class="d-md-none text-start">PAU</td>
                     <td>3</td>
                     <td>7</td>
-                    <td>0</td>
-                    <td>3</td>
-                    <td>4</td>
-                    <td>2</td>
-                    <td>9</td>
+                    <td class="d-none d-md-table-cell">0</td>
+                    <td class="d-none d-md-table-cell">3</td>
+                    <td class="d-none d-md-table-cell">4</td>
+                    <td class="d-none d-md-table-cell">2</td>
+                    <td class="d-none d-md-table-cell">9</td>
                     <td>-7</td>
-                    <td>0 0 0</td>
+                    <td class="d-none d-md-table-cell">0 0 0</td>
                 </tr>
             </tbody>
         </table>
